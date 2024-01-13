@@ -1,0 +1,46 @@
+Question 1} You have two stack and 1,2,3,4,5 values and you have pushed all these values to S1(in the order 1,2,3,4,5)
+and then you took 2 element from top 
+and and inserted into S2, then pop 1 element from s1,
+and then take top of S2 and insert into S1. 
+When is the second top element in S1;
+
+
+Initial state:
+S1 (top to bottom): 5, 4, 3, 2, 1
+S2 (empty)
+
+Move top 2 elements from S1 to S2:
+S1: 3, 2, 1
+S2: 5, 4
+
+Pop 1 element from S1:
+S1: 2, 1
+S2: 5, 4
+
+Take top of S2 (which is 4) and insert into S1:
+S1: 4, 2, 1
+S2: 5
+
+Now, the second top element in S1 is 2.
+
+Question 2} What does this function do?
+1. Prints binary representation of n in reverse order.
+2. Prints binary representation of n.
+3. Print the value of Log n.
+4.print the value of Log n in reverse order.
+
+Answer : - The function is likely designed to print the binary
+representation of a number 
+
+
+Question 3} Which of the following statement about stack data structure is/are NOT Correct ?
+1. Stack data structure can be implemented using linkedlist linkedlist
+2. New Node can only be added at the top of the stack
+3. Stack is the FIFO data structure.
+4. Adding an element to a filled stack leads to underflow condition
+
+Answer 3}:-----------
+stack is a Last-In-First-Out (LIFO) data structure,
+3 option is incorrect.
+ 
+
